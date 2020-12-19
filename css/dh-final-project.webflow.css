@@ -94,7 +94,7 @@
 
 .paragraph {
   margin-bottom: 25px;
-  padding-top: 65px;
+  padding-top: 0px;
   font-family: 'Linlibertine r', sans-serif;
   font-size: 18px;
 }
@@ -147,8 +147,10 @@
   }
 
   .paragraph {
-    padding-top: 75px;
-    font-size: 25px;
+    padding-top: 0px;
+    padding-left: 50px;
+    font-family: 'Linlibertine ri', sans-serif;
+    font-size: 20px;
   }
 
   .heading {
@@ -209,6 +211,10 @@
   .rich-text-block-4 {
     font-family: 'Linlibertine r', sans-serif;
     font-size: 20px;
+  }
+
+  .html-embed {
+    padding-left: 40px;
   }
 }
 
