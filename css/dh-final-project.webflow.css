@@ -1,0 +1,459 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.grid {
+  grid-column-gap: 0px;
+  grid-template-areas: "Title Title"
+    "Quote Quote"
+    "Quote Quote"
+    "Intro Intro"
+    "Background Background"
+    "Economic-Impact Economic-Impact"
+    "Environmental-Impact Environmental-Impact"
+    "References References";
+  -ms-grid-rows: auto minmax(auto, 1.75fr) auto auto auto auto auto auto;
+  grid-template-rows: auto minmax(auto, 1.75fr) auto auto auto auto auto auto;
+}
+
+.map-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0px;
+}
+
+.map {
+  display: block;
+  width: auto;
+  height: auto;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-radius: 0px;
+}
+
+.text-block {
+  font-size: 0px;
+}
+
+.text-block-2 {
+  font-size: 40px;
+}
+
+.text-block-3 {
+  font-size: 0px;
+}
+
+.text-block-4 {
+  padding: 38px 38px 15px;
+  font-family: 'Linlibertine as', sans-serif;
+  font-size: 40px;
+}
+
+.lightbox-link {
+  position: static;
+}
+
+.div-block {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.text-block-5 {
+  font-family: 'Linlibertine asi', sans-serif;
+  font-size: 20px;
+}
+
+.block-quote {
+  font-family: 'Linlibertine r', sans-serif;
+}
+
+.text-block-6 {
+  font-family: 'Linlibertine r', sans-serif;
+  font-size: 18px;
+  text-align: right;
+}
+
+.column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.paragraph {
+  margin-bottom: 25px;
+  padding-top: 65px;
+  font-family: 'Linlibertine r', sans-serif;
+  font-size: 18px;
+}
+
+.paragraph-2 {
+  font-family: 'Linlibertine r', sans-serif;
+  font-size: 18px;
+  text-align: right;
+}
+
+@media screen and (min-width: 1440px) {
+  .grid {
+    grid-template-areas: "Title Title"
+      "Quote Quote"
+      "Quote Quote"
+      "Intro Intro"
+      "Background Background"
+      "Economic-Impact Economic-Impact"
+      "Environmental-Impact Environmental-Impact"
+      "References References";
+  }
+
+  .text-block-4 {
+    font-size: 60px;
+  }
+
+  .text-block-5 {
+    margin-bottom: 35px;
+  }
+
+  .block-quote {
+    margin-top: 108px;
+  }
+
+  .image-2 {
+    overflow: auto;
+    max-width: 80%;
+    -o-object-fit: scale-down;
+    object-fit: scale-down;
+  }
+
+  .basic-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+
+  .paragraph {
+    padding-top: 75px;
+    font-size: 25px;
+  }
+
+  .heading {
+    font-family: 'Linlibertine rb', sans-serif;
+    font-weight: 400;
+  }
+
+  .paragraph-3 {
+    overflow: visible;
+    font-family: 'Linlibertine r', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    white-space: normal;
+  }
+
+  .heading-2 {
+    font-family: 'Linlibertine r', sans-serif;
+    font-weight: 400;
+  }
+
+  .paragraph-4 {
+    font-family: 'Linlibertine r', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .rich-text-block {
+    width: 60%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-family: 'Linlibertine r', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  .italic-text {
+    font-family: 'Linlibertine ri', sans-serif;
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .rich-text-block-2 {
+    font-family: 'Linlibertine r', sans-serif;
+    font-size: 0px;
+  }
+
+  .rich-text-block-3 {
+    font-family: 'Linlibertine r', sans-serif;
+    font-size: 20px;
+  }
+
+  .rich-text-block-4 {
+    font-family: 'Linlibertine r', sans-serif;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .grid {
+    grid-template-areas: "Title Title"
+      "Map-1 Map-1"
+      "Map-1 Map-1"
+      "Intro Intro";
+  }
+}
+
+#w-node-f82a77bc314c-8a1c38ce {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: Title;
+}
+
+#w-node-545a82d27535-8a1c38ce {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: Quote;
+}
+
+#w-node-7e3ac00299ee-8a1c38ce {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: Intro;
+}
+
+#w-node-10be8a0208dc-8a1c38ce {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: Background;
+}
+
+#w-node-663c7bd5cd81-8a1c38ce {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: Economic-Impact;
+}
+
+#w-node-92540ceee5a7-8a1c38ce {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: Environmental-Impact;
+}
+
+#w-node-966690a352ca-8a1c38ce {
+  -ms-grid-row: 8;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: References;
+}
+
+@media screen and (min-width: 1440px) {
+  #w-node-10be8a0208dc-8a1c38ce {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: Background;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #w-node-f82a77bc314c-8a1c38ce {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+
+  #w-node-545a82d27535-8a1c38ce {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+
+  #w-node-7e3ac00299ee-8a1c38ce {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+
+  #w-node-10be8a0208dc-8a1c38ce {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+
+  #w-node-663c7bd5cd81-8a1c38ce {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+
+  #w-node-92540ceee5a7-8a1c38ce {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+
+  #w-node-966690a352ca-8a1c38ce {
+    -ms-grid-row: 8;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+
+  #w-node-10be8a0208dc-8a1c38ce {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  #w-node-f82a77bc314c-8a1c38ce {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+
+  #w-node-7e3ac00299ee-8a1c38ce {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+}
+
+@font-face {
+  font-family: 'Linlibertine abl';
+  src: url('../fonts/LinLibertine_aBL.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Linlibertine abs';
+  src: url('../fonts/LinLibertine_aBS.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Linlibertine adrs';
+  src: url('../fonts/LinLibertine_aDRS.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Linlibertine arl';
+  src: url('../fonts/LinLibertine_aRL.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Linlibertine as';
+  src: url('../fonts/LinLibertine_aS.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Linlibertine asi';
+  src: url('../fonts/LinLibertine_aSI.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Linlibertine dr';
+  src: url('../fonts/LinLibertine_DR.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Linlibertine i';
+  src: url('../fonts/LinLibertine_I.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Linlibertine aszi';
+  src: url('../fonts/LinLibertine_aSZI.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Linlibertine azl';
+  src: url('../fonts/LinLibertine_aZL.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Linlibertine r';
+  src: url('../fonts/LinLibertine_R.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Linlibertine rbi';
+  src: url('../fonts/LinLibertine_RBI.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Linlibertine ri';
+  src: url('../fonts/LinLibertine_RI.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Linlibertine rb';
+  src: url('../fonts/LinLibertine_RB.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Linlibertine rz';
+  src: url('../fonts/LinLibertine_RZ.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Linlibertine rzi';
+  src: url('../fonts/LinLibertine_RZI.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
